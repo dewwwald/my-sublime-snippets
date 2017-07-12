@@ -1,16 +1,16 @@
-#Installation
+# Installation
 
 To install run:
-```
+```bash
 rsync -r --exclude='*' --include='*.sublime-snippet' ./  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
-# OR
+// OR
 
 rsync -r --exclude='*' --include='*.sublime-snippet' ./  [your snippet location here]
 ```
 
 To update repo:
-```
+```bash
 rsync -r --exclude='./.git' ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.sublime-snippet './'
 
 # OR
