@@ -1,0 +1,15 @@
+<snippet>
+	<content>
+<![CDATA[import { Component } from '@angular/core';
+
+@Component({
+	selector: '$1',
+	templateUrl: './$2.component.html'
+}) 
+export class $3Component {}]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ngComponent</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
