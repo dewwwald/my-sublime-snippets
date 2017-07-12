@@ -4,7 +4,7 @@ To install run:
 ```bash
 rsync -r --exclude='*' --include='*.sublime-snippet' ./  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
-// OR
+# OR
 
 rsync -r --exclude='*' --include='*.sublime-snippet' ./  [your snippet location here]
 ```
