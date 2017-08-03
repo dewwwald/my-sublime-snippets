@@ -2,7 +2,7 @@
 
 To install run:
 ```bash
-// you might need to swap exclude with include
+# you might need to swap exclude with include
 rsync -r --include='*.sublime-snippet' --exclude='*' ./  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 # OR
