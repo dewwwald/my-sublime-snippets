@@ -2,12 +2,14 @@
 
 To install run:
 ```bash
-rsync -r --exclude='*' --include='*.sublime-snippet' ./  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+// you might need to swap exclude with include
+rsync -r --include='*.sublime-snippet' --exclude='*' ./  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 # OR
 
 rsync -r --exclude='*' --include='*.sublime-snippet' ./  [your snippet location here]
 ```
+
 
 To update repo:
 ```bash
